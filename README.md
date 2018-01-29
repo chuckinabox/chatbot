@@ -1,3 +1,3 @@
-#ChatBot w/Mahcing Learning#
+**ChatBot w/ Machine Learning**
 
-In progress ChatBot, currently gathering/formatting datasets
+In-progress ChatBot, currently gathering/formatting datasets
