@@ -16,6 +16,8 @@ function switchFunc(data) {
 
 // Replace all the instances of 'birthday' with 'earthday'
 fs
-  .createReadStream(path.join(__dirname, "movie_lines_formatted.txt"))
+  .createReadStream(
+    path.join(__dirname, "./datasets/movie_lines_formatted.txt")
+  )
   .pipe(replaceStream(/--/g, "- -"))
   .pipe(process.stdout);
